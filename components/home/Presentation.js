@@ -1,35 +1,60 @@
 import styled from 'styled-components';
 
-
 const InitionMain = styled.section`
-  margin-top: 140px;
+  margin-top: 160px;
 `
 
 const ContainerImg = styled.div`
   position: relative;
 `
 
-const RodyFree = styled.img`
+const ButtonInfo = styled.button`
+  color: white;
+  background-color: rgb(193, 28, 62);
+  border: rgb(193, 28, 62);
+  padding-left: 40px;
+  padding-right: 40px;
+  &:hover, a:hover {
+    background-color: black;
+    color: white;
+  };
+
+`
+
+const FigureAfter = styled.div`
+  width: 350px;
+  height: 350px;
+  background-color: black;
   position: absolute;
-  top: 30%;
-  left: 40%;
-  transform: rotate(-18deg);
+  z-index: -10;
+  border-radius: 50%;
+  left: 25%;
+`
+const FigureBefore = styled.div`
+  width: 170px;
+  height: 170px;
+  background-color: rgb(193, 28, 62);
+  position: absolute;
+  z-index: -10;
+  border-radius: 50%;
+  left: 20%;
+  top: -10%;
 `
 
 function PresentationRody() {
   return (
-    <InitionMain className="container">
-      <div className="row">
-        <div className="col">
-          <h1>Bienvenido a RODY</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem</p>
-          <button type="button" className="btn btn-primary">Mas informacion</button>
+    <InitionMain className="container" id="start">
+      <div className="row"> 
+        <div className="col-12 col-md-6"> 
+          <h1 className="color_letter display-4">RODY la aplicacion de transporte completa a tus necesidades...</h1>
+          <p className="mb-5 mt-" style={{fontSize: "35px"}}>Es la alternativa de transporte a tu alcance, para mercancias, acarreos, transporte de personas. <br /> A un click de distancia.</p>
+          <ButtonInfo type="button" className="btn btn-primary btn-lg" ><a href="#information">Mas informacion</a></ButtonInfo>
         </div>
-        <ContainerImg className="col">
-          <img src="/statics/img/delevery.png" width="100%"/>
-          <RodyFree src="/statics/img/rody_logo.png" width="50%"/>
+        <ContainerImg className="col-12 col-md-6">
+          <img src="/statics/img/initio_image.png" width="100%"/>
         </ContainerImg>
       </div>
+
     </InitionMain>
   )
 }
