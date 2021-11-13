@@ -3,8 +3,8 @@ import { useState, useEffect } from 'react'
 import { useTheme } from 'styled-components'
 
 function HeaderOption2() {
-  const [scrollView, setScrollView] = useState("dark");
-  const [imgLogo, setImgLogo] = useState("logo_rody_bln")
+  const [scrollView, setScrollView] = useState("light");
+  const [imgLogo, setImgLogo] = useState("logo_rody")
   
   useEffect(() => {
     window.addEventListener("scroll", function() {
@@ -22,7 +22,7 @@ function HeaderOption2() {
   
   return (
     <section className="container-fluid" style={{paddingLeft: "0", paddingRight: "0", position: "fixed", top: "0", zIndex: "10"}}>
-      <Navbar collapseOnSelect expand="lg" bg={scrollView} variant={scrollView}>
+      <Navbar collapseOnSelect expand="lg" bg={scrollView} variant={scrollView} >
         <Container className="mt-2 mb-2">
         <Navbar.Brand href="#">
           <img

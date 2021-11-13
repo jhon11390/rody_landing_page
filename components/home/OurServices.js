@@ -53,7 +53,7 @@ function OurServices() {
         <CircleColorServices className="col text-end" style={{height: "200px", position: "relative"}}>
             <h1 className="display-2">Nuestros servicios</h1>
         </CircleColorServices>
-      </div>
+      </div> 
       <div className="row text-center"> 
         <div className="col-12 col-md-6 col-lg-3">
           <div className="card border-0" style={{width: "100%"}}>

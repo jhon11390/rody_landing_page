@@ -55,7 +55,7 @@ function OurObjetive() {
           <h1 className="display-2">Nuestro Objetivo</h1>
         </CircleColor>
       </div> 
-      <div className="row">
+      <div className="row"> 
         <div className="col"> 
         </div>
         <div className="col-8">

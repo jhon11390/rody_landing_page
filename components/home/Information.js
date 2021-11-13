@@ -19,7 +19,7 @@ function Information() {
         <div className="row">
           <h1 className="color_letter display-2">Registrate</h1>
         </div>
-      </div> 
+      </div>
       <div className="row mt-5">
         <div className="col-12 col-md-6" style={{position: "relative"}}>
           <img src="/statics/img/image_info.png" width="100%"/>
