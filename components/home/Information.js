@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Container, Row, Col, Image, Form, Button } from 'react-bootstrap';
 
 const ButtonInfo2 = styled.button`
 color: white;
@@ -14,37 +15,39 @@ padding-right: 40px;
 
 function Information() {
   return (
-    <section className="container mt-5" id="information" style={{paddingTop: "110px"}}>
-      <div className="row">
-        <div className="row">
+    <Container className="mt-5" id="information" style={{paddingTop: "110px"}}>
+      <Row className="text-end color_letter">
+        <Col>
           <h1 className="color_letter display-2">Registrate</h1>
-        </div>
-      </div>
-      <div className="row mt-5">
-        <div className="col-12 col-md-6" style={{position: "relative"}}>
-          <img src="/statics/img/image_info.png" width="100%"/>
-        </div>
-        <div className="col-12 col-md-6">
-          <h1>Registrate</h1>
+        </Col>
+      </Row>
+      <Row className="mt-5">
+        <Col md="6" style={{position: "relative"}}>
+          <Image src="/statics/img/image_info.png" fluid />
+        </Col>
+        <Col md="6">
+          <h1>Registrate y mantente actualizado</h1>
           <p>Registrate y se parte de esta nueva familia que esta naciendo...</p>
-          <form>
-            <div className="mb-3">
-              <label htmlFor="name" className="form-label">Nombres</label>
-              <input type="text" className="form-control" id="name"  />
-            </div>
-            <div className="mb-3">
-              <label htmlFor="lastName" className="form-label">Apellidos</label>
-              <input type="text" className="form-control" id="lastName"  />
-            </div>
-            <div className="mb-3">
-              <label htmlFor="email" className="form-label">Email</label>
-              <input type="email" className="form-control" id="email"  />
-            </div>
-            <ButtonInfo2 className="btn btn-primary">Subscribirme</ButtonInfo2>
-          </form>
-        </div>
-      </div>
-    </section>
+          <Form>
+            <Form.Group className="mb-3" controlId="formBasicName">
+              <Form.Label>Nombres</Form.Label>
+              <Form.Control type="text" placeholder="Ingresa tus Nombres" />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="formBasicLastName">
+              <Form.Label>Apellidos</Form.Label>
+              <Form.Control type="text" placeholder="Ingresa tus apellidos" />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Email</Form.Label>
+              <Form.Control type="email" placeholder="Ingresa tu email" />
+            </Form.Group>
+            <Button variant="primary" type="submit" size="lg" style={{backgroundColor: "rgb(193, 28, 62)", border: "rgb(193, 28, 62)", paddingRight: "40px", paddingLeft: "40px"}}>
+              Suscribirme
+            </Button>
+          </Form>
+        </Col>
+      </Row>
+    </Container>
   )
 }
 
