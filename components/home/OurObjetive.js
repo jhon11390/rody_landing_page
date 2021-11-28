@@ -10,23 +10,21 @@ function OurObjetive() {
       </Row> 
       <Row>
         <Col>
-          <Card className="text-center">
-            <Card.Header></Card.Header>
-            <Card.Body>
+          <Card className="text-center" className="border-0">
+            <Card.Body >
               <Card.Title></Card.Title>
               <Card.Text>
                 En RODY el transporte lo convierte en logística aplicada hacia sus clientes en todos los ambitos de traslado de mercacias, acarreos y personas convirtiendo a RODY en una aplicacion totalmente completa, cubriendo todos los ambitos de transporte lo cual nos lleva a conseguir una mayor competitividad dentro de este sector o sectores. Pero además, estos son algunos de nuestros objetivos específicos que conllevan la creacion y nacimiento de esta app:
               </Card.Text>
-              <ListGroup variant="flush"className="text-end mt-5">
-                <ListGroup.Item>Mayor competitividad.</ListGroup.Item>
-                <ListGroup.Item>Disminuir los costos de logística.</ListGroup.Item>
-                <ListGroup.Item>Reducir errores y rapidez de las soluciones en trasnporte.</ListGroup.Item>
-                <ListGroup.Item>Contar con personas competitivas y profesionales.</ListGroup.Item>
-                <ListGroup.Item>Incrementar el rendimiento de nuestros colaboradores.</ListGroup.Item>
-                <ListGroup.Item>Aumentar la productividad del sector transporte.</ListGroup.Item>
+              <ListGroup variant="flush"className="text-end mt-5 border-0">
+                <ListGroup.Item style={{border: "0"}}>Mayor competitividad.</ListGroup.Item>
+                <ListGroup.Item style={{border: "0"}}>Disminuir los costos de logística.</ListGroup.Item>
+                <ListGroup.Item style={{border: "0"}}>Reducir errores y rapidez de las soluciones en trasnporte.</ListGroup.Item>
+                <ListGroup.Item style={{border: "0"}}>Contar con personas competitivas y profesionales.</ListGroup.Item>
+                <ListGroup.Item style={{border: "0"}}>Incrementar el rendimiento de nuestros colaboradores.</ListGroup.Item>
+                <ListGroup.Item style={{border: "0"}}>Aumentar la productividad del sector transporte.</ListGroup.Item>
               </ListGroup>
             </Card.Body>
-            <Card.Footer className="text-muted"></Card.Footer>
           </Card>
         </Col>
       </Row>

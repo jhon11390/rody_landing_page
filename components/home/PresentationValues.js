@@ -13,6 +13,9 @@ function PresentationValues() {
         <Col sm="4">
           <Card className="border-0" style={{width: "100%"}}>
             <Card.Img variant="top" src="/statics/img/diference1.jpg" />
+            <div className="text-center mt-3">
+              <img src="/statics/img/personal.png" width="30" />
+            </div>
             <Card.Body>
               <Card.Title className="color_letter">Personal profesional y legal</Card.Title>
               <Card.Text>Personas totalmente idetificadas y con controles de seguridad para su ingreso a la app.</Card.Text>
@@ -22,6 +25,9 @@ function PresentationValues() {
         <Col sm="4">
           <Card className="border-0" style={{width: "100%"}}>
             <Card.Img variant="top" src="/statics/img/diference2.jpg" />
+            <div className="text-center mt-3">
+              <img src="/statics/img/maps.png" width="30" />
+            </div>
             <Card.Body>
               <Card.Title className="color_letter">Seguimiento completo de tus trasnportes</Card.Title>
               <Card.Text>No perderas ni un momento el seguimiento de tus objetos enviados, ya que la app siempre estara atenta a darte la ubicacion exacta de tu servicio.</Card.Text>
@@ -31,6 +37,9 @@ function PresentationValues() {
         <Col sm="4">
           <Card className="border-0" style={{width: "100%"}}>
             <Card.Img variant="top" src="/statics/img/diference3.jpg" />
+            <div className="text-center mt-3">
+              <img src="/statics/img/allinone.png" width="30" />
+            </div>
             <Card.Body>
               <Card.Title className="color_letter">Todo en uno</Card.Title>
               <Card.Text>La unica app que tiene todos los servicios en uno. -acarreos, -envios, -trasnporte de personas tanto basico como VIP </Card.Text>

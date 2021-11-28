@@ -22,7 +22,7 @@ function HeaderOption2() {
   
   return (
     <Container fluid style={{paddingLeft: "0", paddingRight: "0", position: "fixed", top: "0", zIndex: "10"}}>
-      <Navbar collapseOnSelect expand="lg" bg={scrollView} variant={scrollView} >
+      <Navbar collapseOnSelect expand="lg" bg={scrollView} variant={scrollView}>
         <Container className="mt-2 mb-2">
         <Navbar.Brand href="#">
           <img
