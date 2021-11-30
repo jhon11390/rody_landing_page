@@ -1,4 +1,5 @@
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import CarouselValues from './subComponents/CarrouselValues';
 
 
 function PresentationValues() {
@@ -12,7 +13,11 @@ function PresentationValues() {
       <Row className="mt-5 text-center">
         <Col sm="4">
           <Card className="border-0" style={{width: "100%"}}>
-            <Card.Img variant="top" src="/statics/img/diference1.jpg" />
+            <CarouselValues 
+              image1= "/statics/img/diference1.jpg"
+              image2= "/statics/img/diference1.2.jpg"
+              image3= "/statics/img/diference1.3.jpg"
+            />
             <div className="text-center mt-3">
               <img src="/statics/img/personal.png" width="30" />
             </div>
@@ -24,7 +29,11 @@ function PresentationValues() {
         </Col>
         <Col sm="4">
           <Card className="border-0" style={{width: "100%"}}>
-            <Card.Img variant="top" src="/statics/img/diference2.jpg" />
+            <CarouselValues 
+              image1= "/statics/img/diference2.jpg"
+              image2= "/statics/img/diference2.2.jpg"
+              image3= "/statics/img/diference2.3.jpg"
+            />
             <div className="text-center mt-3">
               <img src="/statics/img/maps.png" width="30" />
             </div>
@@ -36,7 +45,11 @@ function PresentationValues() {
         </Col>
         <Col sm="4">
           <Card className="border-0" style={{width: "100%"}}>
-            <Card.Img variant="top" src="/statics/img/diference3.jpg" />
+            <CarouselValues 
+              image1= "/statics/img/diference3.jpg"
+              image2= "/statics/img/diference3.2.jpg"
+              image3= "/statics/img/diference3.3.jpg"
+            />
             <div className="text-center mt-3">
               <img src="/statics/img/allinone.png" width="30" />
             </div>

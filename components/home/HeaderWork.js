@@ -2,7 +2,7 @@ import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap'
 import { useState, useEffect } from 'react'
 import { useTheme } from 'styled-components'
 
-function HeaderOption2() {
+function HeaderWork() {
   const [scrollView, setScrollView] = useState("light");
   const [imgLogo, setImgLogo] = useState("logo_rody")
   
@@ -23,7 +23,7 @@ function HeaderOption2() {
 
   
   return (
-    <Container fluid style={{paddingLeft: "0", paddingRight: "0", position: "fixed", top: "0", zIndex: "10"}} id="startRody">
+    <Container fluid style={{paddingLeft: "0", paddingRight: "0", position: "fixed", top: "0", zIndex: "10"}}>
       <Navbar collapseOnSelect expand="lg" variant={scrollView} className="navRodyColor"  >
         <Container className="mt-2 mb-2">
         <Navbar.Brand href="/">
@@ -37,17 +37,9 @@ function HeaderOption2() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#serviceWorker" style={{fontSize: "20px"}}>Solicita un Servicio</Nav.Link>
-            <Nav.Link href="#target" style={{fontSize: "20px"}}>Nuestro Objetivo</Nav.Link>
-            <NavDropdown title="Nuestros Servicios" id="collasible-nav-dropdown" style={{fontSize: "20px"}}>
-              <NavDropdown.Item href="#services">Acarreos</NavDropdown.Item>
-              <NavDropdown.Item href="#services">Envios</NavDropdown.Item>
-              <NavDropdown.Item href="#services">Transporte</NavDropdown.Item>
-              <NavDropdown.Item href="#services">Transporte Especial</NavDropdown.Item>
-            </NavDropdown>
+            
           </Nav>
           <Nav>
-            <Nav.Link href="/workToRody" style={{fontSize: "20px"}}>Trabaja con Nosotros</Nav.Link>
             <Nav.Link eventKey={2} href="https://rodyapp.com/" style={{fontSize: "20px"}}>
               Inicia Sesion
             </Nav.Link>
@@ -59,4 +51,4 @@ function HeaderOption2() {
   )
 }
 
-export default HeaderOption2
+export default HeaderWork

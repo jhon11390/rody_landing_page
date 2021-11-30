@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import CarouselValues from './subComponents/CarrouselValues';
 
 
 function OurServices() {
@@ -11,7 +12,11 @@ function OurServices() {
       <Row className="text-center"> 
         <Col md="6" lg="3" className="mb-3">
           <Card className="border-0" style={{width: "100%"}}>
-            <Card.Img variant="top" src="/statics/img/servicioacarreo.jpg" />
+            <CarouselValues 
+              image1= "/statics/img/servicioacarreo.jpg"
+              image2= "/statics/img/servicioacarreo2.jpg"
+              image3= "/statics/img/servicioacarreo3.jpg"
+            />
             <div className="text-center mt-3">
               <img src="/statics/img/acarreo.png" width="30" height="30"/>
             </div>
@@ -23,7 +28,11 @@ function OurServices() {
         </Col>
         <Col md="6" lg="3" className="mb-3">
           <Card className="border-0" style={{width: "100%"}}>
-            <Card.Img variant="top" src="/statics/img/servicioenvios.jpg" />
+            <CarouselValues 
+              image1= "/statics/img/servicioenvios.jpg"
+              image2= "/statics/img/servicioenvios2.jpg"
+              image3= "/statics/img/servicioenvios3.jpg"
+            />
             <div className="text-center mt-3">
               <img src="/statics/img/envios.png" width="30" height="30"/>
             </div>
@@ -35,7 +44,11 @@ function OurServices() {
         </Col>
         <Col md="6" lg="3" className="mb-3"> 
           <Card className="border-0" style={{width: "100%"}}>
-            <Card.Img variant="top" src="/statics/img/serviciotransporte.jpg"/>
+            <CarouselValues 
+              image1= "/statics/img/serviciotransporte.jpg"
+              image2= "/statics/img/serviciotransporte2.jpg"
+              image3= "/statics/img/serviciotransporte3.jpg"
+            />
             <div className="text-center mt-3">
               <img src="/statics/img/transporte.png" width="30" height="30"/>
             </div>
@@ -47,13 +60,17 @@ function OurServices() {
         </Col>
         <Col md="6" lg="3" className="mb-3">
           <Card className="border-0" style={{width: "100%"}}>
-            <Card.Img variant="top" src="/statics/img/autolujo.jpg"/>
+            <CarouselValues 
+              image1= "/statics/img/autolujo.jpg"
+              image2= "/statics/img/autolujo2.jpg"
+              image3= "/statics/img/autolujo3.jpg"
+            />
             <div className="text-center mt-3">
               <img src="/statics/img/lujo.png" width="30" height="30"/>
             </div>
             <Card.Body>
               <Card.Title className="color_letter mb-5">Servicio Especial</Card.Title>
-              <Card.Text>Un servicio mas VIP para trasladarte de un lugar a otro con mucha comodidad.</Card.Text>
+              <Card.Text>Un servicio VIP para trasladarte de un lugar a otro con mucha comodidad.</Card.Text>
             </Card.Body>
           </Card>
         </Col>

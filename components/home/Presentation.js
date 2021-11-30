@@ -10,7 +10,7 @@ const GoInfo = styled.a`
 
 function PresentationRody() {
   return (
-    <Container fluid style={{marginTop: "160px", backgroundImage: "url(/statics/img/imagenInicio2.jpg)", backgroundSize: "cover", backgroundPosition: "center center"}}>
+    <Container fluid style={{marginTop: "110px", backgroundImage: "url(/statics/img/imagenInicio2.jpg)", backgroundSize: "cover", backgroundPosition: "center center"}}>
       <Container id="start" >
         <Row className="row pt-5 pb-5"> 
           <Col md="7"> 
