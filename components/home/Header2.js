@@ -21,12 +21,16 @@ function HeaderOption2() {
     })  
   })
 
+  function toTop() {
+    window.scrollTo(0, 0)
+  }
+
   
   return (
     <Container fluid style={{paddingLeft: "0", paddingRight: "0", position: "fixed", top: "0", zIndex: "10"}}>
       <Navbar id="startRody" collapseOnSelect expand="lg" variant={scrollView} className="navRodyColor"  >
         <Container className="mt-2 mb-2">
-        <Navbar.Brand href="/">
+        <Navbar.Brand onClick={toTop} style={{cursor: "pointer"}}>
           <img
             src={`/statics/img/${imgLogo}.png`}
             width="150"
@@ -47,7 +51,7 @@ function HeaderOption2() {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="/workToRody" style={{fontSize: "20px"}}>Trabaja con Nosotros</Nav.Link>
+            <Nav.Link href="https://trabajosihay.rodyapp.com/" target="_blank" style={{fontSize: "20px"}}>Trabaja con Nosotros</Nav.Link>
             <Nav.Link eventKey={2} href="https://rodyapp.com/" style={{fontSize: "20px"}}>
               Inicia Sesion
             </Nav.Link>

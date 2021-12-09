@@ -42,7 +42,7 @@ function Footer(params) {
             </Row>
             <Row className="mt-3">
               <Col style={{display: "flex", justifyContent: "space-around"}}>
-                <img src="/statics/img/facebook.png" alt="..." width="30" height= "30" className="d-block" id="facebook" style={{filter: "invert(100%)"}} />
+                <a href="https://www.facebook.com/profile.php?id=100073958156555" target="_blank"><img src="/statics/img/facebook.png" alt="..." width="30" height= "30" className="d-block" id="facebook" style={{filter: "invert(100%)"}} /></a>
                 <img src="/statics/img/tiktok.svg" alt="..." width="30" height= "30" className="d-block" id="tiktok" style={{filter: "invert(100%)"}}/>
                 <img src="/statics/img/instagram.png" alt="..." width="30" height= "30" className="d-block" id="instagram" style={{filter: "invert(100%)"}}/>
                 <img src="/statics/img/youtube.svg" alt="..." width="30" height= "30" className="d-block" id="youtube" style={{filter: "invert(100%)"}}/>

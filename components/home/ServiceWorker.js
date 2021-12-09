@@ -31,7 +31,7 @@ function ServiceWorker() {
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
               </Card.Text>
-              <Button variant="primary" style={{backgroundColor: "rgb(193, 28, 62)", border: "rgb(193, 28, 62)", paddingRight: "40px", paddingLeft: "40px"}}><a href="https://rodyapp.com/partner_services?type=carriage">Solicitar Servicio</a></Button>
+              <Button variant="primary" style={{backgroundColor: "rgb(193, 28, 62)", border: "rgb(193, 28, 62)", paddingRight: "40px", paddingLeft: "40px"}}><a href="https://rodyapp.com/partner_services?type=carriage" target="_blank">Solicitar Servicio</a></Button>
             </Card.Body>
           </Card>
         </Col>
@@ -44,7 +44,7 @@ function ServiceWorker() {
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
               </Card.Text>
-              <Button variant="primary" style={{backgroundColor: "rgb(193, 28, 62)", border: "rgb(193, 28, 62)", paddingRight: "40px", paddingLeft: "40px"}}><a href="https://rodyapp.com/partner_services?type=delivery">Solicitar Servicio</a></Button>
+              <Button variant="primary" style={{backgroundColor: "rgb(193, 28, 62)", border: "rgb(193, 28, 62)", paddingRight: "40px", paddingLeft: "40px"}}><a href="https://rodyapp.com/partner_services?type=delivery" target="_blank">Solicitar Servicio</a></Button>
             </Card.Body>
           </Card>
         </Col>
@@ -57,7 +57,7 @@ function ServiceWorker() {
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
               </Card.Text>
-              <Button variant="primary" style={{backgroundColor: "rgb(193, 28, 62)", border: "rgb(193, 28, 62)", paddingRight: "40px", paddingLeft: "40px"}}><a href="https://rodyapp.com/partner_services?type=transport">Solicitar Servicio</a></Button>
+              <Button variant="primary" style={{backgroundColor: "rgb(193, 28, 62)", border: "rgb(193, 28, 62)", paddingRight: "40px", paddingLeft: "40px"}}><a href="https://rodyapp.com/partner_services?type=transport" target="_blank">Solicitar Servicio</a></Button>
             </Card.Body>
           </Card>
         </Col>
@@ -70,7 +70,7 @@ function ServiceWorker() {
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
               </Card.Text>
-              <Button variant="primary" style={{backgroundColor: "rgb(193, 28, 62)", border: "rgb(193, 28, 62)", paddingRight: "40px", paddingLeft: "40px"}}><a href="https://rodyapp.com/partner_services?type=special">Solicitar Servicio</a></Button>
+              <Button variant="primary" style={{backgroundColor: "rgb(193, 28, 62)", border: "rgb(193, 28, 62)", paddingRight: "40px", paddingLeft: "40px"}}><a href="https://rodyapp.com/partner_services?type=special" target="_blank">Solicitar Servicio</a></Button>
             </Card.Body>
           </Card>
         </Col>
