@@ -23,7 +23,7 @@ function PresentationValues() {
             </div>
             <Card.Body>
               <Card.Title className="color_letter">Personal profesional y legal</Card.Title>
-              <Card.Text>Personas totalmente idetificadas y con controles de seguridad para su ingreso a la app.</Card.Text>
+              <Card.Text>Control de seguridad para prestar servicio en la aplicación. Personal identificado.</Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -38,7 +38,7 @@ function PresentationValues() {
               <img src="/statics/img/maps.png" width="30" />
             </div>
             <Card.Body>
-              <Card.Title className="color_letter">Seguimiento completo de tus trasnportes</Card.Title>
+              <Card.Title className="color_letter">Seguimiento completo de tus servicio.</Card.Title>
               <Card.Text>No perderas ni un momento el seguimiento de tus objetos enviados, ya que la app siempre estara atenta a darte la ubicacion exacta de tu servicio.</Card.Text>
             </Card.Body>
           </Card>
@@ -55,7 +55,7 @@ function PresentationValues() {
             </div>
             <Card.Body>
               <Card.Title className="color_letter">Todo en uno</Card.Title>
-              <Card.Text>La unica app que tiene todos los servicios en uno. -acarreos, -envios, -trasnporte de personas tanto basico como VIP </Card.Text>
+              <Card.Text>Transporte de personas servicio basico y VIP </Card.Text>
             </Card.Body>
           </Card>
         </Col>
