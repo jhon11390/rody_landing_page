@@ -32,7 +32,9 @@ function Footer(params) {
         </Row>
         <Row className="mt-5">
           <Col md="8">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing </p>
+            <p>En RODY te queremos ofrecer el mejor servicio de transporte para que llegues a tu destino en el momento que lo requieras con toda la seguridad y traquilidad que solo RODY te ofrecer.<br />
+            En rody encontraras tu mejor aliado en logistica y trasnporte para ti y para tus objetos mas valiosos.
+            </p>
           </Col>
           <Col>
             <Row>

@@ -26,10 +26,9 @@ function ServiceWorker() {
           <Card className="border-0">
             <Card.Img variant="top" src="/statics/img/card_carriage.jpg" />
             <Card.Body>
-              <Card.Title>Acarreo o Mudanza</Card.Title>
+              <Card.Title className="pb-3 pt-3"><b>Acarreo o Mudanza</b></Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                
               </Card.Text>
               <Button variant="primary" style={{backgroundColor: "rgb(193, 28, 62)", border: "rgb(193, 28, 62)", paddingRight: "40px", paddingLeft: "40px"}}><a href="https://rodyapp.com/partner_services?type=carriage" target="_blank">Solicitar Servicio</a></Button>
             </Card.Body>
@@ -39,10 +38,9 @@ function ServiceWorker() {
           <Card className="border-0">
             <Card.Img variant="top" src="/statics/img/card_delivery.jpg" />
             <Card.Body>
-              <Card.Title>Domicilio</Card.Title>
+              <Card.Title className="pb-3 pt-3"><b>Domicilio</b></Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+               
               </Card.Text>
               <Button variant="primary" style={{backgroundColor: "rgb(193, 28, 62)", border: "rgb(193, 28, 62)", paddingRight: "40px", paddingLeft: "40px"}}><a href="https://rodyapp.com/partner_services?type=delivery" target="_blank">Solicitar Servicio</a></Button>
             </Card.Body>
@@ -52,10 +50,9 @@ function ServiceWorker() {
           <Card className="border-0">
             <Card.Img variant="top" src="/statics/img/card_transport.jpg" />
             <Card.Body>
-              <Card.Title>Transporte</Card.Title>
+              <Card.Title className="pb-3 pt-3"><b>Transporte</b></Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+               
               </Card.Text>
               <Button variant="primary" style={{backgroundColor: "rgb(193, 28, 62)", border: "rgb(193, 28, 62)", paddingRight: "40px", paddingLeft: "40px"}}><a href="https://rodyapp.com/partner_services?type=transport" target="_blank">Solicitar Servicio</a></Button>
             </Card.Body>
@@ -65,10 +62,9 @@ function ServiceWorker() {
           <Card className="border-0">
             <Card.Img variant="top" src="/statics/img/card_special.jpg" />
             <Card.Body>
-              <Card.Title>Transporte VIP</Card.Title>
+              <Card.Title className="pb-3 pt-3"><b>Transporte VIP</b></Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+               
               </Card.Text>
               <Button variant="primary" style={{backgroundColor: "rgb(193, 28, 62)", border: "rgb(193, 28, 62)", paddingRight: "40px", paddingLeft: "40px"}}><a href="https://rodyapp.com/partner_services?type=special" target="_blank">Solicitar Servicio</a></Button>
             </Card.Body>
